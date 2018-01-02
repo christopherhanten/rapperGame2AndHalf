@@ -2,14 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rapper Guessin Game</title>
     <link rel="stylesheet" type="text/css" href="styleRapperGame.css">
     <script src="scriptsRapperGame2.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href=
     "https://fonts.googleapis.com/css?family=Aladin|Alegreya|Grand+Hotel|Roboto" rel"stylesheet"></br>
   </head>
 <body>
+  <div class="container-fluid">
     <h1>//SanityCheck//</h1>
 
     <!-- top nav goes here. -->
@@ -19,8 +22,8 @@
 </br>
 
     <!-- this is where the logo is going to go -->
-  <div class="rapperGameLogo">
-    <img src="rapperLogo.jpg">
+  <div>
+    <img class= "rGL" src="rapperLogo.png">
   </div>
 </br>
     <!-- song snippets to play automagically upon page load -->
@@ -28,7 +31,7 @@
 <!-- {
   for(Rapper=1;Rapper<Rapper.length;i++);
 } -->
-    <button id="playSnippet">Play Song Snippet</button>
+    <button id="playSnippet" onclick="">Play Song Snippet</button>
 
 
   <div class="rapperChoices">
@@ -68,10 +71,10 @@
   </div>
 </br>
   <div>
-    <button class = "refresh" value="refresh"type"reset">Be a Quitter!</button>
+    <button id = "refresh" value="refresh"type"reset">Play Again!</button>
   </div>
 </br>
-    <button class = "refresh2" value="refresh"type="reset">Play Again</button>
+    <button id = "quit" value="refresh"type="reset">Be a Quitter!</button>
   </div>
 </br>
   </form>
@@ -80,17 +83,18 @@
 <div class =  "outcomes">
 
 </div>
-  <div class  = "container"
+  <div class  = "container">
     //there needs to be pictures of the rappers.//
     //there needs to be a place for the rappers links//
     //there needs to be a display for the Rapper object
+
   </div>
 </br></br>
 
 <div class="bottomNav">
     //bottom nav goes here.//
 </div>
-
+</div>
 
   </body>
 </html>

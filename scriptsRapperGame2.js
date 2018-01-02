@@ -4,7 +4,7 @@ alert("biggo");
 let audioElement = document.createElement('audio');
 audioElement.setAttribute('src', 'test123.mp3');
 audioElement.load()
-audioElement.getElementById = "submitGuess".addEventListener("load", function() {
+audioElement.getElementById = "playSnippet".addEventListener("load", function() {
   audioElement.play();
 //   $(".duration span").html(audioElement.duration);
 //   $(".filename span").html(audioElement.src);
