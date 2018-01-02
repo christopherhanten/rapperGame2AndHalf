@@ -10,14 +10,13 @@ body {
 .container-fluid {
   background-color: #001f3f;
 }
-
-
 .topNav {
   color: #DDDDDD;
 }
 .rGL {
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
+  margin: auto 0;
 }
 .songSnippets {
   color: grey;
@@ -70,11 +69,6 @@ body {
 	position:relative;
 	top:1px;
 }
-
-#rapperGuess1 {
-
-}
-
 #submitGuess {
   margin-top: 10px;
   -moz-box-shadow: 3px 4px 0px 0px #899599;

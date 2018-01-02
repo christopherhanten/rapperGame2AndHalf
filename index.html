@@ -11,9 +11,10 @@
     <link href=
     "https://fonts.googleapis.com/css?family=Aladin|Alegreya|Grand+Hotel|Roboto" rel"stylesheet"></br>
   </head>
+
 <body>
   <div class="container-fluid">
-    <h1>//SanityCheck//</h1>
+    <!-- <h1>//SanityCheck//</h1> -->
 
     <!-- top nav goes here. -->
   <div class="topNav">
@@ -22,9 +23,9 @@
 </br>
 
     <!-- this is where the logo is going to go -->
-  <div>
-    <img class= "rGL" src="rapperLogo.png">
-  </div>
+  <!-- <div> -->
+    <img class= "rGL" src="rapperLogo2.png">
+  <!-- </div> -->
 </br>
     <!-- song snippets to play automagically upon page load -->
     <!-- This is where the answers will be -->
@@ -60,41 +61,68 @@
 </br>
     </div>
   </div>
-
-  <div>
 </br>
 
-    <!-- Buttons are going here -->
-    <button id = "submitGuess" type="submit" onclick="submit">Make Yo Guess!</button>
+  <!-- Buttons are going here -->
   <div>
+    <button id = "submitGuess" type="submit"  onclick="submit">Make Yo Guess!
+  </button>
+  </div>
+</br>
 
-  </div>
-</br>
   <div>
-    <button id = "refresh" value="refresh"type"reset">Play Again!</button>
+    <button id = "refresh" value="refresh"type"reset">Play Again!
+  </button>
   </div>
 </br>
-    <button id = "quit" value="refresh"type="reset">Be a Quitter!</button>
-  </div>
+    <div>
+    <button id = "quit" value="refresh"type="reset">Be a Quitter!
+  </button>
+</div>
 </br>
   </form>
 </br></br>
 
-<div class =  "outcomes">
+<div class="container">
+  <h2>Large Modal</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
 
-</div>
-  <div class  = "container">
-    //there needs to be pictures of the rappers.//
-    //there needs to be a place for the rappers links//
-    //there needs to be a display for the Rapper object
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+  <div class="modal-content">
+  <div class="modal-header">
+  	<button type="button" class="close" data-dismiss="modal">&times;</button>
+  <h4 class="modal-title">Jay-Z</h4>
+    </div>
+   <div class="modal-body">
+    <p> Real Name: Shawn Carter</br>
+    	Date of Birth: December 4, 1969</br>
+        Origin: New York, New York</br>
+        Lyric: "..."</br>
+        <img src=""></br></br></p>
+    </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
+    </div>
+    </div>
+    </div>
+  	</div>
+	</div>
 
+</body>
+</html>
+
+  <div class =  "outcomes">
   </div>
 </br></br>
 
-<div class="bottomNav">
+  <div class="bottomNav">
     //bottom nav goes here.//
-</div>
+  </div>
 </div>
 
-  </body>
+</body>
+
 </html>
