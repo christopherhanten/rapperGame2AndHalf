@@ -1,0 +1,45 @@
+h1 {
+  color: #DC143C;
+  font-size: 55px;
+  -webkit-text-stroke: 1px silver;
+}
+body {
+  background-color: #001f3f;
+  margin: 0 auto;
+
+}
+.topNav {
+  color: #DDDDDD;
+}
+.rapperGameLogo {
+  color: gold;
+  font-size: 55px;
+  background-color: 001f3f;
+  margin-left: 45px;
+  image width: 0 auto;
+}
+.songSnippets {
+  color: grey;
+  font-size: 25px;
+}
+.rapperChoices {
+  color: #DDDDDD;
+  font-size: 25px;
+}
+.submit {
+  margin-top: 10px;
+}
+.rapperPix {
+  color: grey;
+  font-size: 25px;
+}
+.rapperLinks {
+  color: grey;
+  font-size: 25px;
+}
+.bottomNav {
+  color: #DDDDDD;
+}
+.refresh2 {
+  float: left;
+}
