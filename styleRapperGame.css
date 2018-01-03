@@ -10,6 +10,9 @@ body {
 .container-fluid {
   background-color: #001f3f;
 }
+.container-fluid2 {
+  margin-left: 15%;
+}
 .topNav {
   color: #DDDDDD;
 }
@@ -18,14 +21,21 @@ body {
   width: 80%;
   margin: auto 0;
 }
+.form1 {margin: 0 auto;
+}
 .songSnippets {
   color: grey;
   font-size: 25px;
 }
+.choiceText {
+  color: #978844;
+  font-size: 25px;
+  margin: 25px 0px -25px 0px;
+}
 .rapperChoices {
   color: #bab1ba;
   font-size: 25px;
-  margin: 15px 0px;;
+  margin: 15px 0px;
 }
 #playSnippet {
 	-moz-box-shadow: 3px 4px 0px 0px #899599;
@@ -200,6 +210,8 @@ body {
 
 input[type="radio"] {
   display: block;
+  color: red;
+    /* this doesn't appear to work. Will look into it. */
 }
 .rapperPix {
   color: grey;
@@ -214,4 +226,23 @@ input[type="radio"] {
 }
 .refresh2 {
   float: left;
+}
+.cbtn btn-info btn-xs {
+  color: #001f3f;
+}
+.modal-header {
+  background-color: #001f3f;
+  color: #f9f2c4;
+}
+.modal-title {
+  font-size: 75px;
+}
+.modal-body {
+  background-color: #f9f2c4;
+  color: #001f3f;
+}
+.modal-footer {
+  background-color: #001f3f;
+  color: #f9f2c4;
+  text-align: left;
 }

@@ -6,10 +6,11 @@
     <title>Rapper Guessin Game</title>
     <link rel="stylesheet" type="text/css" href="styleRapperGame.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href=
     "https://fonts.googleapis.com/css?family=Aladin|Alegreya|Grand+Hotel|Roboto" rel"stylesheet"></br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </head>
 
 <body>
@@ -24,20 +25,18 @@
 <!-- {
   for(Rapper=1;Rapper<Rapper.length;i++);
 } -->
+  <div class="container-fluid2">
     <button id="playSnippet" onclick="">Play Song Snippet</button>
-
-
-  <div class="rapperChoices">
-    <!-- this is where the multiple choices go. -->
-
+<!-- this is where the multiple choices go. -->
+  <div class="choiceText">
     Choose the rapper whose voice you are hearing!
-  <div>
+  </div>
 </br>
-
-  <form>
-    <input type="radio" id="rapperGuess1"
-     name="choice" value="rapperGuess1" checked>
-   <label for="rapperGuess1">rapper guess one</label>
+  <div class="rapperChoices">
+    <form class="form1">
+      <input type="radio" id="rapperGuess1"
+       name="choice" value="rapperGuess1" checked>
+     <label for="rapperGuess1">rapper guess one</label>
 </br>
     <input type="radio" id="rapperGuess2"
      name="choice" value="rapperGuess2">
@@ -50,35 +49,33 @@
     <input type="radio" id="rapperGuess4"
      name="choice" value="rapperGuess4">
     <label for="rapperGuess4">rapper guess four</label>
-</br>
-    </div>
   </div>
-</br>
+</br></br>
 
-  <!-- Buttons are going here -->
+<!-- Buttons are going here -->
   <div>
     <button id = "submitGuess" type="submit"  onclick="submit">Make Yo Guess!
-  </button>
+    </button>
   </div>
 </br>
-
   <div>
     <button id = "refresh" value="refresh"type"reset">Play Again!
-  </button>
+    </button>
   </div>
 </br>
-    <div>
+  <div>
     <button id = "quit" value="refresh"type="reset">Be a Quitter!
-  </button>
-</div>
+    </button>
+  </div>
+  </div>
 </br>
   </form>
 </br></br>
 
-<div class="container">
-  <!-- <h2>Large Modal</h2> -->
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" id = "submitGuess" data-toggle="modal" data-target="#myModal">When an answer is correct</button>
+  <div class="container">
+    <!-- <h2>Large Modal</h2> -->
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#myModal">When an answer is correct</button>
 
   <!-- Modal -->
       <div class="modal fade" id="myModal" role="dialog">
@@ -92,8 +89,9 @@
     <p> Real Name: Shawn Carter</br>
     	  Date of Birth: December 4, 1969</br>
         Origin: New York, New York</br>
-        Lyric: "..."</br>
-        <img src=""></br></br></p>
+        Lyric: "“If skills sold, truth be told, I’d probably be lyrically, Talib Kweli/ Truthfully I wanna rhyme like Common Sense/ But I did five mill’ — I ain’t been rhymin like Common since.”"</br>
+        <img src="./zotherfiles/images/jigga.jpg"></br>
+        <a href = "https://en.wikipedia.org/wiki/Jay-Z">https://en.wikipedia.org/wiki/Jay-Z</a></br></br></p>
   </div>
   <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
