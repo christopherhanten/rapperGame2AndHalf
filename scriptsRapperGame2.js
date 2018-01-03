@@ -1,11 +1,23 @@
 //SanityCheck
-alert("biggo");
+//alert("biggo");
 
-let audioElement = document.createElement('audio');
-audioElement.setAttribute('src', 'test123.mp3');
-audioElement.load()
-audioElement.getElementById = "playSnippet".addEventListener("load", function() {
-  audioElement.play();
+// let audioElement = document.createElement('audio');
+// audioElement.setAttribute('src', 'test123.mp3');
+// audioElement.load()
+// audioElement.getElementById = "playSnippet".addEventListener("load", function() {
+//   audioElement.play();
+
+var audio = new Audio("test12.mp3");
+
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = true;
+
+audio.onended = function(){
+audio.play();
+}
 
 function Rapper (name, birthName, dateOfBirth, origin, song, lyric, picture) {
 
